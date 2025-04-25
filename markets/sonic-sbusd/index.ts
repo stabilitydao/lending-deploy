@@ -80,8 +80,8 @@ export const SonicSbUSDMarket: IAaveConfiguration = {
   },
   ChainlinkAggregator: {
     [eSonicNetwork.main]: {
-      ['Staked bUSD']: "0x83Dd33b8391Fe5cD3B6090C4d698249d9b3631a4",
-      ['USDC.e']: "0xD58e2B148B59E81f51aD66E26df944df05247B14",
+      ['Staked bUSD']: "0xD58e2B148B59E81f51aD66E26df944df05247B14",
+      ['USDC.e']: "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
     },
   },
 }
