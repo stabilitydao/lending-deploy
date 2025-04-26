@@ -5,33 +5,14 @@ import {
   IAaveConfiguration,
   IReserveParams
 } from "../../helpers/types";
-import AaveMarket from "../aave";
 import {
   rateStrategyStableOne,
-  rateStrategyStableTwo
 } from "../aave/rateStrategies";
+import {StabilitySonicMarket} from "../sonic-sbusd";
 
-export const StabilitySonicMarket: IAaveConfiguration = {
-  ...AaveMarket,
-  ATokenNamePrefix: "Sonic",
-  StableDebtTokenNamePrefix: "Sonic",
-  VariableDebtTokenNamePrefix: "Sonic",
-  WrappedNativeTokenSymbol: "wS",
-  SymbolPrefix: "si",
-  EModes: {},
-  StkAaveProxy: {},
-  ReserveFactorTreasuryAddress: {
-    [eSonicNetwork.main]: "0x3950b3a43fa0687561Bc5c8E32D2EE826D88a661",
-  },
-  RateStrategies: {
-    rateStrategyStableOne,
-    rateStrategyStableTwo,
-  },
-};
-
-export const strategySbUSD: IReserveParams = {
+export const strategyYTscUSD: IReserveParams = {
   strategy: rateStrategyStableOne,
-  baseLTVAsCollateral: "8000",
+  baseLTVAsCollateral: "7500",
   liquidationThreshold: "8500",
   liquidationBonus: "10500",
   liquidationProtocolFee: "1000",
@@ -65,24 +46,27 @@ export const strategyUSDC: IReserveParams = {
   borrowableIsolation: false,
 };
 
-export const SonicSbUSDMarket: IAaveConfiguration = {
+export const SonicYTscUSDMarket: IAaveConfiguration = {
   ...StabilitySonicMarket,
-  MarketId: "Sonic Stability sbUSD isolated market",
-  ProviderId: 101,
+  MarketId: "Sonic Stability YT-scUSD isolated market",
+  ProviderId: 102,
   ReservesConfig: {
-    ['Staked bUSD']: strategySbUSD,
+    ['YT-scUSD']: strategyYTscUSD,
     ['USDC.e']: strategyUSDC,
+    ['scUSD']: strategyUSDC,
   },
   ReserveAssets: {
     [eSonicNetwork.main]: {
-      ['Staked bUSD']: "0x451812019238785086CFAC408D8A64f06898f6f5",
+      ['YT-scUSD']: "0xd2901D474b351bC6eE7b119f9c920863B0F781b2",
       ['USDC.e']: "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+      ['scUSD']: "0xd3DCe716f3eF535C5Ff8d041c1A41C3bd89b97aE",
     },
   },
   ChainlinkAggregator: {
     [eSonicNetwork.main]: {
-      ['Staked bUSD']: "0xD58e2B148B59E81f51aD66E26df944df05247B14",
+      ['YT-scUSD']: "0xF0Ff64e9840a5e4e5676F1357dadCE85C55c9fB7",
       ['USDC.e']: "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
+      ['scUSD']: "0xACE5e348a341a740004304c2c228Af1A4581920F",
     },
   },
 }

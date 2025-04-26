@@ -37,10 +37,12 @@ import { ZERO_ADDRESS } from "./constants";
 import { getTestnetReserveAddressFromSymbol, POOL_DATA_PROVIDER } from ".";
 import { ENABLE_REWARDS } from "./env";
 import {SonicSbUSDMarket} from "../markets/sonic-sbusd";
+import {SonicYTscUSDMarket} from "../markets/sonic-ytscusd";
 
 declare var hre: HardhatRuntimeEnvironment;
 
 export enum ConfigNames {
+  Sonic_YTscUSD = "Sonic_YTscUSD",
   Sonic_sbUSD = "Sonic_sbUSD",
   Commons = "Commons",
   Aave = "Aave",
@@ -101,7 +103,9 @@ export const getAddressFromConfig = (
 
 export const loadPoolConfig = (configName: ConfigNames): PoolConfiguration => {
   switch (configName) {
-    case ConfigNames.Sonic_sbUSD:
+    case ConfigNames.Sonic_YTscUSD:
+      return SonicYTscUSDMarket;
+     case ConfigNames.Sonic_sbUSD:
       return SonicSbUSDMarket;
     case ConfigNames.Aave:
       return AaveMarket;
