@@ -2,6 +2,52 @@
 
 ## Sonic
 
+### Stream market (xUSD)
+
+```
+┌───────────────────────────────────────┬──────────────────────────────────────────────┐
+│                (index)                │                   address                    │
+├───────────────────────────────────────┼──────────────────────────────────────────────┤
+│     PoolAddressesProviderRegistry     │ '0xb5Af26bEfa290F224743c9AAB5bf4859ACabDA19' │
+│              SupplyLogic              │ '0x811F0c3Ca26b88fE350b3C37Af52C2E60f29BE06' │
+│              BorrowLogic              │ '0x85EA7B7829F6e891B7c9850BDA73fcAF4ea423B4' │
+│           LiquidationLogic            │ '0x556A2d6097A9f88a343DD71f12FC8565aBB61d55' │
+│              EModeLogic               │ '0x43b828d1Eb9C8cd5e8c6a34Ee51BA97E88273fF7' │
+│              BridgeLogic              │ '0x88df0bA9fEB76Dc23e85D4469B3DBcF0E3108137' │
+│           ConfiguratorLogic           │ '0xC6c20DD1B41506312d4867fddb9a052876Ad3F12' │
+│            FlashLoanLogic             │ '0xAF5e22EC2fBC805Aa36E7e027c1238EBF387EF45' │
+│               PoolLogic               │ '0xc139666302679b890B05B02eD573dB3654107Db2' │
+│   PoolAddressesProvider-Sonic_xUSD    │ '0xCc31959682Ad726A9bcde9bbD41c89f36c03E743' │
+│      PoolDataProvider-Sonic_xUSD      │ '0x08Dd992108ef0a82E8aDC633bcB3A20092e17E0B' │
+│          Pool-Implementation          │ '0x77b7f2600b819c186C5735AC496BB4cf9bbAA997' │
+│    PoolConfigurator-Implementation    │ '0xc3F17Bc92aed0a1914070B1f92785bfea7c4c2F4' │
+│          ReservesSetupHelper          │ '0x006D758313845305c3A8bE1eBD99874c90C3B062' │
+│         ACLManager-Sonic_xUSD         │ '0xCEFd817eE776d8210AF5e128b3BAF3aa2CaB08CB' │
+│         AaveOracle-Sonic_xUSD         │ '0xaeD4fc5fa11812233200cE3b82aaf334cC944Ec3' │
+│         Pool-Proxy-Sonic_xUSD         │ '0x1f672BD230D0FC2Ee9A75D2037a92CC1225A4Ad8' │
+│   PoolConfigurator-Proxy-Sonic_xUSD   │ '0xF5C81E07363cdD10171cAc8537727FE8aAdCA9a3' │
+│            EmissionManager            │ '0x287Be5c33cE5a08068447796F71659586580dCC5' │
+│      IncentivesV2-Implementation      │ '0xbF346F5bF78DAeDe8A7bFE356d31561b84a443c1' │
+│            IncentivesProxy            │ '0x25902648F53fa98b31F4b476F67246799BF4D4f5' │
+│           AToken-Sonic_xUSD           │ '0x3824Bc80021B6eB08ca08BD15234829A1eF62805' │
+│   DelegationAwareAToken-Sonic_xUSD    │ '0xB36E7FA9761e215B94e1c2e71919Ba7eF54C0A71' │
+│      StableDebtToken-Sonic_xUSD       │ '0xB38D4859C31111fc926300a1a3Baff8deD53A3d6' │
+│     VariableDebtToken-Sonic_xUSD      │ '0xd27a3302c206a26fDbFBBbD344ED0454B9177D2E' │
+│ ReserveStrategy-rateStrategyStableOne │ '0xB31ed26351259786E13cf265b2CD60495974cBBc' │
+│ ReserveStrategy-rateStrategyStableTwo │ '0x61106d8135c9310317480952B74FB5C8CA2D7dD2' │
+│        xUSD-AToken-Sonic_xUSD         │ '0xD56cA83ad45976b3590B53AdE167DE27b89683D8' │
+│   xUSD-VariableDebtToken-Sonic_xUSD   │ '0xdb0e21733316005d96e0e1647c352b32340Ee5Ee' │
+│    xUSD-StableDebtToken-Sonic_xUSD    │ '0x482077279156aBB7Af14feC3389F22D5F1cF40e0' │
+│       USDC.e-AToken-Sonic_xUSD        │ '0x7A41DF9418509725AB5637f1984F3e6d6E6C899b' │
+│  USDC.e-VariableDebtToken-Sonic_xUSD  │ '0x47b9993135cB21D477cd197063d88d1B075ea277' │
+│   USDC.e-StableDebtToken-Sonic_xUSD   │ '0x24dF2c2794969A8746Cd2667767561A979f5e999' │
+│         WrappedTokenGatewayV3         │ '0xBEB0822A79FAbF01Cac932BC924e1734147Ee797' │
+│         WalletBalanceProvider         │ '0x009eFeb54f27D24C051A08D3bd2957C095F483Cc' │
+│       UiIncentiveDataProviderV3       │ '0xfB6f63095df680bED9177F4E36Fd02a3a06A73A4' │
+│         UiPoolDataProviderV3          │ '0x8ea28227554a921f55a3b517a5DF15038300d3B0' │
+└───────────────────────────────────────┴──────────────────────────────────────────────┘
+```
+
 ### StableJack market (YT-scUSD)
 
 ```
