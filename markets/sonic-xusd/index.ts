@@ -12,9 +12,9 @@ import {StabilitySonicMarket} from "../sonic-sbusd";
 
 export const strategyxUSD: IReserveParams = {
   strategy: rateStrategyStableOne,
-  baseLTVAsCollateral: "9000",
-  liquidationThreshold: "9500",
-  liquidationBonus: "10500",
+  baseLTVAsCollateral: "9500",
+  liquidationThreshold: "9700",
+  liquidationBonus: "10200",
   liquidationProtocolFee: "1000",
   borrowingEnabled: false,
   stableBorrowRateEnabled: false,
@@ -22,7 +22,7 @@ export const strategyxUSD: IReserveParams = {
   reserveDecimals: "6",
   aTokenImpl: eContractid.AToken,
   reserveFactor: "2500",
-  supplyCap: "100000",
+  supplyCap: "1500000",
   borrowCap: "0",
   debtCeiling: "0",
   borrowableIsolation: false,

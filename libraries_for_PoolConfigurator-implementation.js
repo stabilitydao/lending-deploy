@@ -1,3 +1,3 @@
 module.exports = {
-    ConfiguratorLogic: "0x7333eA391D39D1c16AE3DA2D3F68Ac1d1Df52c8f"
+    ConfiguratorLogic: "0xC6c20DD1B41506312d4867fddb9a052876Ad3F12"
 };
