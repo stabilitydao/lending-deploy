@@ -18,5 +18,4 @@ coverage
 .coverage_contracts
 typechain
 types
-deployments
 deployments*

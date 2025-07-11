@@ -39,10 +39,12 @@ import { ENABLE_REWARDS } from "./env";
 import {SonicSbUSDMarket} from "../markets/sonic-sbusd";
 import {SonicYTscUSDMarket} from "../markets/sonic-ytscusd";
 import {SonicxUSDMarket} from "../markets/sonic-xusd";
+import {SonicCredixMarket} from "../markets/sonic-credix";
 
 declare var hre: HardhatRuntimeEnvironment;
 
 export enum ConfigNames {
+  Sonic_Credix = "Sonic_Credix",
   Sonic_xUSD = "Sonic_xUSD",
   Sonic_YTscUSD = "Sonic_YTscUSD",
   Sonic_sbUSD = "Sonic_sbUSD",
@@ -105,6 +107,8 @@ export const getAddressFromConfig = (
 
 export const loadPoolConfig = (configName: ConfigNames): PoolConfiguration => {
   switch (configName) {
+    case ConfigNames.Sonic_Credix:
+      return SonicCredixMarket;
     case ConfigNames.Sonic_xUSD:
       return SonicxUSDMarket;
     case ConfigNames.Sonic_YTscUSD:

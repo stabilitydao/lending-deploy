@@ -2,6 +2,64 @@
 
 ## Sonic
 
+### Credix market (ac*)
+
+```
+┌────────────────────────────────────────┬──────────────────────────────────────────────┐
+│                (index)                 │                   address                    │
+├────────────────────────────────────────┼──────────────────────────────────────────────┤
+│     PoolAddressesProviderRegistry      │ '0x7EE7024b989Eb25f65960D88de6C44D31202716d' │
+│              SupplyLogic               │ '0x40C15DaAbeac3d2d0139a3075D38139729C0ed99' │
+│              BorrowLogic               │ '0x068F8B1aE1E19B3a063517BFb8C96668295f3B8C' │
+│            LiquidationLogic            │ '0x780e15a5e593c7CF197CDf564ed099158ac1940A' │
+│               EModeLogic               │ '0xe328B34B4b7Ee94244B3734b00db8F1DC7C8f9af' │
+│              BridgeLogic               │ '0x7148E3473796098B13337F4a144fA9F191893EA0' │
+│           ConfiguratorLogic            │ '0xE3a3C1764009B53b8C7685e31bdc286F3c8564AD' │
+│             FlashLoanLogic             │ '0x340fD3fae7Cd18638bEfc5dAf12C6ac21f2cC703' │
+│               PoolLogic                │ '0xeb8002EFF72C8af9DB1944749Ba2D78E1599b70E' │
+│   PoolAddressesProvider-Sonic_Credix   │ '0x4b139f6E816934D580D9305Ca0f115145f698973' │
+│     PoolDataProvider-Sonic_Credix      │ '0x5d10c393F9DF12BbbA49B8E8d5D7Fc4674d2e115' │
+│          Pool-Implementation           │ '0x8Cc50713D3c7525fC4FC87514AA3bEFFEAb92E96' │
+│    PoolConfigurator-Implementation     │ '0xE11bc682642b8E2E6b54D0F81146659A9bC39818' │
+│          ReservesSetupHelper           │ '0x619603aEbCf30ef464399eBd2eBE7D44E0Bc703C' │
+│        ACLManager-Sonic_Credix         │ '0x1637b78Dd5541F0dB2f3d04EeD39De37Df71BD08' │
+│        AaveOracle-Sonic_Credix         │ '0xce767E508A17321C25117b44d246e4611bbEcFE4' │
+│        Pool-Proxy-Sonic_Credix         │ '0x0850A9759165B25832E2cAa3dB3f2d04dc583D4E' │
+│  PoolConfigurator-Proxy-Sonic_Credix   │ '0x1C5D4B5DFC1A47e5Db839Cb8A0Fb36bAb1E986B7' │
+│            EmissionManager             │ '0x4E165DDe791720538AD4c31825263705BD7B8D38' │
+│      IncentivesV2-Implementation       │ '0x9283211deaE2208b6658627EA6f5df2e39a12317' │
+│            IncentivesProxy             │ '0xED88a47Bb526dB5722c2Bc1BDe96c997D4429e3c' │
+│          AToken-Sonic_Credix           │ '0x4f45cd824C6DF34146bC60CDcdDF9de6C99768fC' │
+│   DelegationAwareAToken-Sonic_Credix   │ '0x08FE64851ddc1E79024c870f415bb7A8Ba6f61B6' │
+│      StableDebtToken-Sonic_Credix      │ '0xa2eC653b89ddf66602DB7d5333Ca62D3c8EaAfed' │
+│     VariableDebtToken-Sonic_Credix     │ '0x7D86D80fD61B7A0B341621ed351AA96b1dEA1028' │
+│ ReserveStrategy-rateStrategyStableOne  │ '0x2769BF4BfAc5FaD8ed9798261851Eb5b0d447524' │
+│ ReserveStrategy-rateStrategyStableTwo  │ '0xECbA8aEa8D9702ceE834A9F828c0abE32F5f6ec4' │
+│       acUSDC-AToken-Sonic_Credix       │ '0x0eEE208934E66A6e44517e627A2475fC891b3a38' │
+│ acUSDC-VariableDebtToken-Sonic_Credix  │ '0x7D2D5393eE253200603E026c93f098babce33a6C' │
+│  acUSDC-StableDebtToken-Sonic_Credix   │ '0x63A35Dc504a78467e4d1EfA199E93FfdAcc676CE' │
+│      acscUSD-AToken-Sonic_Credix       │ '0x1acd539e2a76CF876889DD8119c1d873821551A1' │
+│ acscUSD-VariableDebtToken-Sonic_Credix │ '0x83F711ff8c91b7A226CD35A2CaBC0dC39699f721' │
+│  acscUSD-StableDebtToken-Sonic_Credix  │ '0xF9D665A2eBA0D0908e98cf2519024e7038B6e26e' │
+│        acwS-AToken-Sonic_Credix        │ '0xeD01f103c284253d0824c0125F673F11c14D2EA4' │
+│  acwS-VariableDebtToken-Sonic_Credix   │ '0xC1203714057d667F53503AE2B67AD7621622bf47' │
+│   acwS-StableDebtToken-Sonic_Credix    │ '0x3617Ee8eC960478c0bB4B08043ffc50fe385a9FD' │
+│        USDC-AToken-Sonic_Credix        │ '0x64d0071044EF8F98B8E5ecFCb4A6c12Cb8BC1Ec0' │
+│  USDC-VariableDebtToken-Sonic_Credix   │ '0x5394bf08F963Ca6A41447445c0c0A5267B10eE86' │
+│   USDC-StableDebtToken-Sonic_Credix    │ '0xce9Ca83261409fD7b228acE74b5234F34b7d085A' │
+│       scUSD-AToken-Sonic_Credix        │ '0x9154f0a385eef5d48ceF78D9FEA19995A92718a9' │
+│  scUSD-VariableDebtToken-Sonic_Credix  │ '0x099D6E81771e21D4F3d43ae40a71c7E429164753' │
+│   scUSD-StableDebtToken-Sonic_Credix   │ '0x5466aFD41A567a38197a3A51091A9ED6264aB6A2' │
+│         wS-AToken-Sonic_Credix         │ '0x61bC5Ce0639aA0A24Ab7ea8B574D4B0D6b619833' │
+│   wS-VariableDebtToken-Sonic_Credix    │ '0x5Ac446749c76c9450d4a605e9123B372dA1BdB9a' │
+│    wS-StableDebtToken-Sonic_Credix     │ '0x9D00589e158c7212f3A89B41A0a330959bA58467' │
+│         WrappedTokenGatewayV3          │ '0x8510cEBf9803a18F45f9D346D024c75CE42B2e6b' │
+│         WalletBalanceProvider          │ '0xa696A285FC913A3b27A3F58C269508a1EB2d9cd2' │
+│       UiIncentiveDataProviderV3        │ '0x437ffcB593b25A3aD6FaE6fd596b018aEb6045bF' │
+│          UiPoolDataProviderV3          │ '0x26bB4a236C2b240f54994575Ed06881534578654' │
+└────────────────────────────────────────┴──────────────────────────────────────────────┘
+```
+
 ### Main market
 
 #### Reserves
@@ -190,6 +248,8 @@ WrappedTokenGatewayV3: 0xbE0B2230B842be6A37188038a58755534dC9E999
 
 ## How to
 
+### Deploy new market
+
 ```shell
 npm i
 npm run compile
@@ -197,7 +257,7 @@ cp .env.example .env
 vim .env
 HARDHAT_NETWORK=sonic npx hardhat deploy
 # Verify automatic
-npx hardhat --network sonic etherscan-verify --api-url https://api.sonicscan.org/
+npx hardhat --network sonic etherscan-verify --api-url https://api.etherscan.io/v2/api?chainid=146
 # Verify contracts with undetectable libs
 # setup libraries files
 npx hardhat --network sonic verify <FlashLoanLogic_contact-addr> --libraries libraries_for_FlashLoanLogic.js
@@ -206,3 +266,24 @@ npx hardhat --network sonic verify <PoolConfigurator-Implementation_contact-addr
 # Verify aToken proxy contacts
 npx hardhat --network sonic verify <contact-addr> "<PoolConfigurator-Proxy>"
 ```
+
+### Administrate
+
+#### Set reserve factor for borrowable asset
+
+*1000 == 10%*
+
+* view current: PoolDataProvider-Proxy.getReserveConfigurationData(asset)
+* set new: PoolConfigurator-Proxy.setReserveFactor(asset, newFactor)
+
+#### Set supply cap
+
+*3000000 == 3m*
+
+* PoolConfigurator-Proxy.setSupplyCap(asset, newSupplyCap)
+
+#### Set new LTV
+
+*9000 == 90%*
+
+* PoolConfigurator-Proxy.configureReserveAsCollateral
