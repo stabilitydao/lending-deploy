@@ -31,17 +31,17 @@ export const StabilitySonicMarket: IAaveConfiguration = {
 
 export const strategySbUSD: IReserveParams = {
   strategy: rateStrategyStableOne,
-  baseLTVAsCollateral: "8000",
-  liquidationThreshold: "8500",
-  liquidationBonus: "10500",
+  baseLTVAsCollateral: "9000",
+  liquidationThreshold: "9500",
+  liquidationBonus: "10150",
   liquidationProtocolFee: "1000",
   borrowingEnabled: false,
   stableBorrowRateEnabled: false,
   flashLoanEnabled: false,
   reserveDecimals: "18",
   aTokenImpl: eContractid.AToken,
-  reserveFactor: "2500",
-  supplyCap: "100000",
+  reserveFactor: "2000",
+  supplyCap: "10000000",
   borrowCap: "0",
   debtCeiling: "0",
   borrowableIsolation: false,
@@ -53,12 +53,12 @@ export const strategyUSDC: IReserveParams = {
   liquidationThreshold: "8500",
   liquidationBonus: "10500",
   liquidationProtocolFee: "1000",
-  borrowingEnabled: true,
+  borrowingEnabled: false,
   stableBorrowRateEnabled: false,
   flashLoanEnabled: false,
   reserveDecimals: "6",
   aTokenImpl: eContractid.AToken,
-  reserveFactor: "2500",
+  reserveFactor: "2000",
   supplyCap: "0",
   borrowCap: "0",
   debtCeiling: "0",
@@ -67,8 +67,8 @@ export const strategyUSDC: IReserveParams = {
 
 export const SonicSbUSDMarket: IAaveConfiguration = {
   ...StabilitySonicMarket,
-  MarketId: "Sonic Stability sbUSD isolated market",
-  ProviderId: 101,
+  MarketId: "Sonic Stability sbUSD isolated market gen2",
+  ProviderId: 121,
   ReservesConfig: {
     ['Staked bUSD']: strategySbUSD,
     ['USDC.e']: strategyUSDC,
@@ -76,13 +76,13 @@ export const SonicSbUSDMarket: IAaveConfiguration = {
   ReserveAssets: {
     [eSonicNetwork.main]: {
       ['Staked bUSD']: "0x451812019238785086CFAC408D8A64f06898f6f5",
-      ['USDC.e']: "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
+      ['USDC']: "0x29219dd400f2Bf60E5a23d13Be72B486D4038894",
     },
   },
   ChainlinkAggregator: {
     [eSonicNetwork.main]: {
       ['Staked bUSD']: "0xD58e2B148B59E81f51aD66E26df944df05247B14",
-      ['USDC.e']: "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
+      ['USDC']: "0x55bCa887199d5520B3Ce285D41e6dC10C08716C9",
     },
   },
 }
