@@ -49,11 +49,11 @@ export const strategySbUSD: IReserveParams = {
 
 export const strategyUSDC: IReserveParams = {
   strategy: rateStrategyStableOne,
-  baseLTVAsCollateral: "8000",
-  liquidationThreshold: "8500",
-  liquidationBonus: "10500",
-  liquidationProtocolFee: "1000",
-  borrowingEnabled: false,
+  baseLTVAsCollateral: "0",
+  liquidationThreshold: "0",
+  liquidationBonus: "0",
+  liquidationProtocolFee: "0",
+  borrowingEnabled: true,
   stableBorrowRateEnabled: false,
   flashLoanEnabled: false,
   reserveDecimals: "6",
