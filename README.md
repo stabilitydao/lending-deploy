@@ -292,6 +292,52 @@ WrappedTokenGatewayV3: 0xbE0B2230B842be6A37188038a58755534dC9E999
 └───────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
+### Brunch market gen2 (sbUSD)
+
+```
+┌───────────────────────────────────────────┬──────────────────────────────────────────────┐
+│                  (index)                  │                   address                    │
+├───────────────────────────────────────────┼──────────────────────────────────────────────┤
+│                BorrowLogic                │ '0x843761244f9D30dEA423Bc8A28C06Ec73F75bE05' │
+│                BridgeLogic                │ '0x1AFA8321eFdE63Ff0FF7f2f284Ea77b6778b48e4' │
+│             ConfiguratorLogic             │ '0x242F2A2c83aD930a1Cf36072e4C4bbD142D08598' │
+│                EModeLogic                 │ '0x4859f379ebE65975e8FE32Ad6c828aE5797173a1' │
+│              FlashLoanLogic               │ '0x894410B9886791d1D8d7eEdbc4Ed10f28E597Ad9' │
+│             LiquidationLogic              │ '0x0d59CF2A373B14f59D73900874a1deAE96e2D1eb' │
+│       PoolAddressesProviderRegistry       │ '0xEd82c2073c3133557609FDEee339e88F14B304e8' │
+│                 PoolLogic                 │ '0xF1C39969eB0DE3D9A963b58916634372dFfA0d5B' │
+│                SupplyLogic                │ '0x2E49c26f8A88971C2e00F17927342324A415552D' │
+│     PoolAddressesProvider-Sonic_sbUSD     │ '0x546eF43c9Edd9f5108E7b054AB81Df73fBE4F73A' │
+│       PoolDataProvider-Sonic_sbUSD        │ '0xb102Cc0cb1357C339D1eFd611De4feE2e0E82448' │
+│            Pool-Implementation            │ '0x6f3A12F21ac44706a2fBe9983752fa61581514dF' │
+│      PoolConfigurator-Implementation      │ '0xa855e6163E310743F0455bf0ec0A5EC448cA69C3' │
+│            ReservesSetupHelper            │ '0x8A42a2F42FCA5Fce3ef84afAAAcEC145005a48e9' │
+│          ACLManager-Sonic_sbUSD           │ '0x888a70c96FccE5ce5631EF4aC66B5044D20fc23E' │
+│          AaveOracle-Sonic_sbUSD           │ '0xEec8e5a0AB15F0C3F2C31da4C17C40F8D0497E1c' │
+│          Pool-Proxy-Sonic_sbUSD           │ '0x6D8Aa37DfAa98d2a14da39cfeD36975F97fc3f85' │
+│    PoolConfigurator-Proxy-Sonic_sbUSD     │ '0x1C61ca2Cd9fB1F39ab0e3188C1ccBdb5b653d287' │
+│              EmissionManager              │ '0x338ACCdc6aAd8aBD6904D8A5A53f3103873B1521' │
+│        IncentivesV2-Implementation        │ '0xe9Eca521ea0Eb08C7Df2264218d546E73F26F6E4' │
+│              IncentivesProxy              │ '0xA8328c4B7222C7334C5a57CcBA2b55f9098c378e' │
+│            AToken-Sonic_sbUSD             │ '0xA244AA462E0Ca48b4566aF3a5005D9C3F03c44Ea' │
+│     DelegationAwareAToken-Sonic_sbUSD     │ '0xC4652c39E593A31C42D97f50B1611a76957B92FE' │
+│        StableDebtToken-Sonic_sbUSD        │ '0x532F418167E21Cb4D93d3D7c1fcf3653F583186b' │
+│       VariableDebtToken-Sonic_sbUSD       │ '0x3F02c38D5Ed730dB6d3f61A3585908117Da0eeC3' │
+│   ReserveStrategy-rateStrategyStableOne   │ '0x321Ceb8B49cf3FBF0FD6d884bEA6C53C187dA145' │
+│   ReserveStrategy-rateStrategyStableTwo   │ '0x8EE6d47713697fa073d53fBA1d1fbCac69598215' │
+│      Staked bUSD-AToken-Sonic_sbUSD       │ '0xeB9bB589C12A0433B274760E657D549a6973C787' │
+│ Staked bUSD-VariableDebtToken-Sonic_sbUSD │ '0x38cD39aEB17F2965e4D826011144AAF65A67E821' │
+│  Staked bUSD-StableDebtToken-Sonic_sbUSD  │ '0x7545EE18eEd70049B36c5A8ED74Ad71743316111' │
+│          USDC-AToken-Sonic_sbUSD          │ '0x958d930E61bdaebbBc0270D88FdBAEE9A13Dc6fd' │
+│    USDC-VariableDebtToken-Sonic_sbUSD     │ '0x730Fe02b33064DF99Fe823Db646482F29acA1230' │
+│     USDC-StableDebtToken-Sonic_sbUSD      │ '0x51E246D3be2Cf5F16779Ef1cD7B0dB10836Df200' │
+│           WrappedTokenGatewayV3           │ '0x2220010512a19BaC5fF597b21c5aBeCa41f701e4' │
+│           WalletBalanceProvider           │ '0x07e81b609De1e754a14c9907faf442909a20EBDC' │
+│         UiIncentiveDataProviderV3         │ '0xE7a4C65B39FF289356818F4fa89977947b4c9f60' │
+│           UiPoolDataProviderV3            │ '0x4D09289e093825cdB2792A94B6aC4559bAC912eb' │
+└───────────────────────────────────────────┴──────────────────────────────────────────────┘
+```
+
 ## How to
 
 ### Deploy new market
