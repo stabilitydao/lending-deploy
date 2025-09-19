@@ -48,8 +48,8 @@ export const strategyUSDC: IReserveParams = {
 
 export const SonicwmetaUSDMarket: IAaveConfiguration = {
   ...StabilitySonicMarket,
-  MarketId: "Sonic Stability USD isolated market",
-  ProviderId: 110,
+  MarketId: "Sonic Stability USD isolated market gen2",
+  ProviderId: 122,
   ReservesConfig: {
     ['wmetaUSD']: strategywmetaUSD,
     ['USDC']: strategyUSDC,
