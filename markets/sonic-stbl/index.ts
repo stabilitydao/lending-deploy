@@ -48,7 +48,7 @@ export const strategyUSDC: IReserveParams = {
 
 export const SonicSTBLUSDMarket: IAaveConfiguration = {
   ...StabilitySonicMarket,
-  MarketId: "Sonic STBL-USD isolated market", // name is updated
+  MarketId: "Sonic STBL-USDC isolated market", // name is updated
   ProviderId: 123, // new unique id
   ReservesConfig: {
     ['STBL']: strategySTBL,

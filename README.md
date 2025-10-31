@@ -338,6 +338,52 @@ WrappedTokenGatewayV3: 0xbE0B2230B842be6A37188038a58755534dC9E999
 └───────────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
+### Sonic STBL-USDC isolated market
+
+```
+┌───────────────────────────────────────┬──────────────────────────────────────────────┐
+│ (index)                               │ address                                      │
+├───────────────────────────────────────┼──────────────────────────────────────────────┤
+│ BorrowLogic                           │ '0x4a66af5338Ad4A62905fdcDDB18DD3C9A40a75F2' │
+│ EModeLogic                            │ '0x9CEaa5a57C2511dA3eC0614fdC3780FeDb4925cc' │
+│ LiquidationLogic                      │ '0xd33073E598cceA377cbc2FC7C738F98e2657a533' │
+│ PoolAddressesProviderRegistry         │ '0xaA48A38bBcf5b49951FA6699860F34ce3933e086' │
+│ SupplyLogic                           │ '0x5e81aA5301C5F073D66dC2CEb6E0E3941A046926' │
+│ BridgeLogic                           │ '0xCdb7D3705d7aBE6665dcafd0DfB3930a2dF6F1aC' │
+│ ConfiguratorLogic                     │ '0x05DB38332e81F5365b9baeC3420DAc5Bb4A577F2' │
+│ FlashLoanLogic                        │ '0xa9d271e508e528C436346E6942664D2153F08871' │
+│ PoolLogic                             │ '0xF830bB8189c7e8a41261c651663879647A67ec68' │
+│ PoolAddressesProvider-Sonic_STBL      │ '0x234888531C4a6AFeF6935DD7DB9F9D5325b68715' │
+│ PoolDataProvider-Sonic_STBL           │ '0xB263ecA021e1D265D7e68842bc57e656cb88FE03' │
+│ Pool-Implementation                   │ '0xa7204f56b8575d0b2bB2982ed58dCcE5df1339d5' │
+│ PoolConfigurator-Implementation       │ '0xd94584c450895E5bB6E2f0d66856447549327D8e' │
+│ ReservesSetupHelper                   │ '0x5A0d4557E5d35286Fe5CacB0d1474ADB504e97c4' │
+│ ACLManager-Sonic_STBL                 │ '0x502961580D249E264D14052343db0A17179Cd67C' │
+│ AaveOracle-Sonic_STBL                 │ '0x842005040DE7f1D110EA8725cdBe0EC20742D113' │
+│ Pool-Proxy-Sonic_STBL                 │ '0xb0A06303085aB2F73212C8846CA5388Da5697c31' │
+│ PoolConfigurator-Proxy-Sonic_STBL     │ '0xf11064953259DD3fd272dDadD94e0d44e110b9cE' │
+│ EmissionManager                       │ '0xaeE65714948EEeE719B4D132b0d9DA64f1Ea4925' │
+│ IncentivesV2-Implementation           │ '0x518F4d39759A8E50310e3a9E6637BA4864331714' │
+│ IncentivesProxy                       │ '0x32e09c7A37b55754a83C933E223324fDF17f44DD' │
+│ AToken-Sonic_STBL                     │ '0xF4420334d82430a1E3c0565154Fb5CA704Df4942' │
+│ DelegationAwareAToken-Sonic_STBL      │ '0xa20D97dFf17F3335CdaA836d8418d1C6c96dAC57' │
+│ StableDebtToken-Sonic_STBL            │ '0xF26700eD91003EF8e520bB513f53FB76cE642c07' │
+│ VariableDebtToken-Sonic_STBL          │ '0x3d198E85f3583F7D9BA56B1a298f86fF39DD5903' │
+│ ReserveStrategy-rateStrategyStableOne │ '0x621b7127b80183420E9b90b3b402a5a3F5DeCa85' │
+│ ReserveStrategy-rateStrategyStableTwo │ '0xa65933208Dd744e6da2D67f5cCb9c8deecCE2719' │
+│ STBL-AToken-Sonic_STBL                │ '0x00886bC6a12d8D5ad0ef51e041a8AB37A0E59251' │
+│ STBL-VariableDebtToken-Sonic_STBL     │ '0xc853b76a7B4Ed3975b1018AD42069aa829A75dD4' │
+│ STBL-StableDebtToken-Sonic_STBL       │ '0x1361A9dC95Eb681beeA6ce2CAaC3df8cf596d896' │
+│ USDC-AToken-Sonic_STBL                │ '0x46b2E96725F03873Cb586a7f84c22545F2835F31' │
+│ USDC-VariableDebtToken-Sonic_STBL     │ '0xB3B28b862B364d6d7CDb50e90D807B348387cC92' │
+│ USDC-StableDebtToken-Sonic_STBL       │ '0xaA2779F5C2bA79B59d94e52497b0ef349d8BD6e8' │
+│ WrappedTokenGatewayV3                 │ '0xbAfEF1374D9526e820fa833bf93433111578e49f' │
+│ WalletBalanceProvider                 │ '0xADE3CB822dB5b708b70AbC77e17Fc58E0bFfC255' │
+│ UiIncentiveDataProviderV3             │ '0x5E23D5Aa2f1C92602BEDc3aF63393fFe99534CcE' │
+│ UiPoolDataProviderV3                  │ '0xa286040921342319B750182bEB4e00A43ABD6B44' │
+└───────────────────────────────────────┴──────────────────────────────────────────────┘
+```
+
 ## How to
 
 ### Deploy new market
