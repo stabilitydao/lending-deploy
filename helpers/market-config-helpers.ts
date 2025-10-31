@@ -41,10 +41,12 @@ import {SonicYTscUSDMarket} from "../markets/sonic-ytscusd";
 import {SonicxUSDMarket} from "../markets/sonic-xusd";
 import {SonicCredixMarket} from "../markets/sonic-credix";
 import {SonicwmetaUSDMarket} from "../markets/sonic-wmetausd";
+import {SonicSTBLUSDMarket} from "../markets/sonic-stbl";
 
 declare var hre: HardhatRuntimeEnvironment;
 
 export enum ConfigNames {
+  Sonic_STBL = "Sonic_STBL",
   Sonic_wmetaUSD = "Sonic_wmetaUSD",
   Sonic_Credix = "Sonic_Credix",
   Sonic_xUSD = "Sonic_xUSD",
@@ -109,6 +111,8 @@ export const getAddressFromConfig = (
 
 export const loadPoolConfig = (configName: ConfigNames): PoolConfiguration => {
   switch (configName) {
+    case ConfigNames.Sonic_STBL:
+      return SonicSTBLUSDMarket;
     case ConfigNames.Sonic_wmetaUSD:
       return SonicwmetaUSDMarket;
     case ConfigNames.Sonic_Credix:

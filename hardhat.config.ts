@@ -62,10 +62,18 @@ export default {
     target: "ethers-v5",
   },
   networks: {
-    [eSonicNetwork.main]: getCommonNetworkConfig(
-      eSonicNetwork.main,
-      146
-    ),
+    [eSonicNetwork.main]: {
+    ...getCommonNetworkConfig(
+         eSonicNetwork.main,
+       146
+      ),
+      verify: {
+        etherscan: {
+          apiUrl: 'https://api.etherscan.io/v2',
+          apiKey: process.env.ETHERSCAN_API_KEY
+        }
+      }
+    },
     hardhat: hardhatNetworkSettings,
     localhost: {
       url: "http://127.0.0.1:8545",
