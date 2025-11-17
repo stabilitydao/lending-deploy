@@ -2,49 +2,49 @@
 
 ## Sonic
 
-### Stability USD market (wmetaUSD)
+### Stability USD market gen2 (wmetaUSD gen2)
 
 ```
 ┌───────────────────────────────────────────┬──────────────────────────────────────────────┐
 │                  (index)                  │                   address                    │
 ├───────────────────────────────────────────┼──────────────────────────────────────────────┤
-│       PoolAddressesProviderRegistry       │ '0x8DecA5aA81d8F76d1540b9FA83c8837C10454C86' │
-│                SupplyLogic                │ '0xb35269b51D4374e0211aD9fE15fD6eF45eBd2e2e' │
-│                BorrowLogic                │ '0x587167bBa558a33bf0E75A3D8D85DAD496eF942b' │
-│             LiquidationLogic              │ '0x66E7DaA4aE598C3Eac160330c5005e7fd350262E' │
-│                EModeLogic                 │ '0x3A5cb45C0F86BDff0376c333Ec24282A35461575' │
-│                BridgeLogic                │ '0x82FC96104A287905Af7e6c4A4DDF6F7c620A1d36' │
-│             ConfiguratorLogic             │ '0x1fA71E545C9D8625cE584Af954F36e36200cE933' │
-│              FlashLoanLogic               │ '0x43b1e3D1669Ee4119BA8445667916119F5763772' │
-│                 PoolLogic                 │ '0xb259E968cBdB5aFAe1C0b5CF275a32c4bd70Ef86' │
-│   PoolAddressesProvider-Sonic_wmetaUSD    │ '0x5CC16D46fdf657651e4F4eeA4470DD215E4Af7bd' │
-│      PoolDataProvider-Sonic_wmetaUSD      │ '0x6d1Aa45220b4D7c7152b49ec3d079d5F0C98B637' │
-│            Pool-Implementation            │ '0xCEAc19BAca985804EE4B99dd57E67404739299Ee' │
-│      PoolConfigurator-Implementation      │ '0x893325BE77607c8435f6f2dFF47339941Eea3EdF' │
-│            ReservesSetupHelper            │ '0xaa4090a64B95692227E86EA985c0967cDE648607' │
-│         ACLManager-Sonic_wmetaUSD         │ '0xDaD5AFC80Ec3532Bb6e254057bD27779A0e1fc5e' │
-│         AaveOracle-Sonic_wmetaUSD         │ '0xE524e8328C51A0bB5543d42294Ae73213bD4c8F9' │
-│         Pool-Proxy-Sonic_wmetaUSD         │ '0x2a32dA908B5E646c0afE567AC077f10d56F0af26' │
-│   PoolConfigurator-Proxy-Sonic_wmetaUSD   │ '0x3d48811F5f84f36f7a25473c69E3743c65ee5054' │
-│              EmissionManager              │ '0x3AC20d26950D981dF2c1aC70eA8192DF9C93C793' │
-│        IncentivesV2-Implementation        │ '0x5b307d3da11789f02Abad56d0EE00B71589A1699' │
-│              IncentivesProxy              │ '0xCaE28C2D670f76691922dEa56C2e05e2Cc4Bec85' │
-│           AToken-Sonic_wmetaUSD           │ '0x17A5d25B63C6357281b12d5eC761DF53478D50ee' │
-│   DelegationAwareAToken-Sonic_wmetaUSD    │ '0x258D9E4867c233c8f7D2e6641538e9527fF7a7A4' │
-│      StableDebtToken-Sonic_wmetaUSD       │ '0xEf446A75db0c924546C3b4822D6e18DFa16f588A' │
-│     VariableDebtToken-Sonic_wmetaUSD      │ '0xfF07124dBA6c369e6FE0BF72154D1D99F4938165' │
-│   ReserveStrategy-rateStrategyStableOne   │ '0xf6622071Ba3F4DC18CeC3E9115422b5830bF4266' │
-│   ReserveStrategy-rateStrategyStableTwo   │ '0x8b4A1580E14CED97748D059A4e7c590C37C12E69' │
-│      wmetaUSD-AToken-Sonic_wmetaUSD       │ '0x287939376DCc571b5ee699DD8E72199989424A2E' │
-│ wmetaUSD-VariableDebtToken-Sonic_wmetaUSD │ '0x5C03dddbD2b5e358D3DDbe060Cd1ce3911688Ed2' │
-│  wmetaUSD-StableDebtToken-Sonic_wmetaUSD  │ '0x9ba8ddFe2eb79f390E2dBaaff0C18ee056c8eC0E' │
-│        USDC-AToken-Sonic_wmetaUSD         │ '0x62E8eEe1aAAc7978672f90da21e4de766213b574' │
-│   USDC-VariableDebtToken-Sonic_wmetaUSD   │ '0x8E45f1F49fec57CfA5088f3040705e68577c4996' │
-│    USDC-StableDebtToken-Sonic_wmetaUSD    │ '0x0f619eD003b1B678B68634c811868263729a81F9' │
-│           WrappedTokenGatewayV3           │ '0x9450D69DF9D8eF8044B59218cF5CD74b0F63C370' │
-│           WalletBalanceProvider           │ '0xB64587f8D9ce97e29Ba41E20f910c1de4497A6b8' │
-│         UiIncentiveDataProviderV3         │ '0x70937C3b0bE8aDD5aE3283221e7D90fbb4e0fE01' │
-│           UiPoolDataProviderV3            │ '0x49FC194e059Ee96Da1420159a6506b2675Fb25e4' │
+│       PoolAddressesProviderRegistry       │ '0xf8BD9BceBf9bD722AD990115Ec008f0D68D66f14' │
+│                SupplyLogic                │ '0x9Da3F397aAf2b4cA93C9896B3eee33cF7abc2f3D' │
+│                BorrowLogic                │ '0xB199D98cCf223Df7FB15E319a9D14852e70aC9Ec' │
+│             LiquidationLogic              │ '0xcD2EaB078685b07382843cd4eE80284F05Cde4Fd' │
+│                EModeLogic                 │ '0x5752E4d778E4Bc60d1b0632067a4FDfCE99CC0bf' │
+│                BridgeLogic                │ '0x2bcbD9E8A7ceBeFa9e2A2c14bA748195671dF708' │
+│             ConfiguratorLogic             │ '0xb3Ce025c8F2b35d8fb0279c3884F4015FA352F3a' │
+│              FlashLoanLogic               │ '0x291Ed79Ad8DAAA62b9D47f221E8248613D1C34fb' │
+│                 PoolLogic                 │ '0xFd65f9d03c4585650C4f63d8260bb355889dBf7c' │
+│   PoolAddressesProvider-Sonic_wmetaUSD    │ '0xE8385DEcBCFf931799dd6689677299CA73A9F644' │
+│      PoolDataProvider-Sonic_wmetaUSD      │ '0x253A04ca6efef2e25f801153852B02bF74E1f749' │
+│            Pool-Implementation            │ '0xA36Be3106326531147f91b958212F393A797bAA1' │
+│      PoolConfigurator-Implementation      │ '0xbCF7b557A6c8b761340eCb1320088bD104D8d6f9' │
+│            ReservesSetupHelper            │ '0x3584c95C938599ae913f5609E67FFc7fDd08E4Cb' │
+│         ACLManager-Sonic_wmetaUSD         │ '0x13157c9E9171d841020DAc4a5605659F0067CbF0' │
+│         AaveOracle-Sonic_wmetaUSD         │ '0xEeFd5096eB2D93E8932eE7666a330d53FDc72344' │
+│         Pool-Proxy-Sonic_wmetaUSD         │ '0x909ba6aC1A9D34fE97Cb459C2CA9b6Ff986676F7' │
+│   PoolConfigurator-Proxy-Sonic_wmetaUSD   │ '0xcBc423c231f63F1f0A62BD7BD7319286299411CE' │
+│              EmissionManager              │ '0x04fC16E25416179906bA09DA5E0db8bF1C58A30a' │
+│        IncentivesV2-Implementation        │ '0x3435Fe4aE0696418bE4B07dEE5c7623580fE53Ef' │
+│              IncentivesProxy              │ '0x2A1f589e39Cb840A981BD3CaB91031C27B128880' │
+│           AToken-Sonic_wmetaUSD           │ '0x106746C1E61bA80367D54A7720058D4C827b9501' │
+│   DelegationAwareAToken-Sonic_wmetaUSD    │ '0x2033853917B7ce7549f1f419cA5850eC9f48e0CE' │
+│      StableDebtToken-Sonic_wmetaUSD       │ '0xaCB86caA165e3B0b540cE6dA6D702347C1a7Ce6f' │
+│     VariableDebtToken-Sonic_wmetaUSD      │ '0xF1c7E067b3a09D44dadc2D1A32874a89f647Cd16' │
+│   ReserveStrategy-rateStrategyStableOne   │ '0xa8B9aF58E8C9AD13741cCa5b5A55cF8fD96189ff' │
+│   ReserveStrategy-rateStrategyStableTwo   │ '0x4E2a4f52802c92Dc41b561B36c640D818856B7bB' │
+│      wmetaUSD-AToken-Sonic_wmetaUSD       │ '0xFC4A805Db8Dc217c468155cc5814070A15af8dc4' │
+│ wmetaUSD-VariableDebtToken-Sonic_wmetaUSD │ '0xbB4B38f3E06FfEc53CD4BDac0d1B76367b7B73a4' │
+│  wmetaUSD-StableDebtToken-Sonic_wmetaUSD  │ '0x0a1F0273322d2cdD66744Ff9Df6141D2Fb66eb82' │
+│        USDC-AToken-Sonic_wmetaUSD         │ '0xb90a84F285aE8D3c0ceD37deD6Fc0f943f7279b7' │
+│   USDC-VariableDebtToken-Sonic_wmetaUSD   │ '0xD09Ec87a76f1b93E30E8eDd04c81531B879a8db8' │
+│    USDC-StableDebtToken-Sonic_wmetaUSD    │ '0x5e11f0D8808d03bD1e3d83aa82f170063119BE31' │
+│           WrappedTokenGatewayV3           │ '0xEF2d3C1A7e133681a8908820A322ea457F9D6840' │
+│           WalletBalanceProvider           │ '0x36dD6bC0E98a3d7188CeEB0d48997D847004Fa60' │
+│         UiIncentiveDataProviderV3         │ '0x2b39a2A987060Eb0Ecc08644Fd3850F3B68B6D2a' │
+│           UiPoolDataProviderV3            │ '0x88D24bd5100D3C471508b0CA0A6949B1E5EC2572' │
 └───────────────────────────────────────────┴──────────────────────────────────────────────┘
 ```
 
